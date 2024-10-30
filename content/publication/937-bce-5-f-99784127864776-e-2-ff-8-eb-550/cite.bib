@@ -1,0 +1,14 @@
+@article{937bce5f99784127864776e2ff8eb550,
+ abstract = {This paper investigates the problem of recovering hyperspectral (HS) images from single RGB images. To tackle such a severely ill-posed problem, we propose a physically-interpretable, compact, efficient and end-to-end learning-based framework, namely AGD-Net. Precisely, by taking advantage of the imaging process, we first formulate the problem explicitly based on the classic gradient descent algorithm. Then, we design a lightweight neural network with a multi-stage architecture to mimic the formed amended gradient descent process, in which efficient convolution and novel spectral zero-mean normalization are proposed to effectively extract spatial-spectral features for regressing an initialization, a basic gradient, and an incremental gradient. Besides, based on the approximate low-rank property of HS images, we propose a novel rank loss to promote the similarity between the global structures of reconstructed and ground-truth HS images, which is optimized with our singular value weighting strategy during training. Moreover, AGD-Net, a single network after one-time training, is flexible to handle the reconstruction with various spectral response functions. Extensive experiments over three commonly-used benchmark datasets demonstrate that AGD-Net can improve the reconstruction quality more than 1.0 dB on average while saving 67x parameters and 32x FLOPs, compared with state-of-the-art methods. The code will be publicly available at https://github.com/zbzhzhy/GD-Net.},
+ author = {Zhiyu Zhu and Hui Liu and Junhui Hou and Sen Jia and Qingfu Zhang},
+ doi = {10.1109/TCI.2021.3124364},
+ issn = {2573-0436},
+ journal = {IEEE Transactions on Computational Imaging},
+ keywords = {Hyperspectral imagery, spectral reconstruction, deep learning, gradient descent, rank loss},
+ language = {English},
+ pages = {1176--1188},
+ publisher = {Institute of Electrical and Electronics Engineers, Inc.},
+ title = {Deep Amended Gradient Descent for Efficient Spectral Reconstruction from Single RGB Images},
+ volume = {7},
+ year = {2021}
+}

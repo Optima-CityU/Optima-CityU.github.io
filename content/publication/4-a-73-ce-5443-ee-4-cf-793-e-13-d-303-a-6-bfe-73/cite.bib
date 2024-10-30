@@ -1,0 +1,16 @@
+@article{4a73ce5443ee4cf793e13d303a6bfe73,
+ abstract = {Symmetric nonnegative matrix factorization (SNMF) has demonstrated to be a powerful method for data clustering. However, SNMF is mathematically formulated as a non-convex optimization problem, making it sensitive to the initialization of variables. Inspired by ensemble clustering that aims to seek a better clustering result from a set of clustering results, we propose self-supervised SNMF (S3NMF), which is capable of boosting clustering performance progressively by taking advantage of the sensitivity to initialization characteristic of SNMF, without relying on any additional information. Specifically, we first perform SNMF repeatedly with a random positive matrix for initialization each time, leading to multiple decomposed matrices. Then, we rank the quality of the resulting matrices with adaptively learned weights, from which a new similarity matrix that is expected to be more discriminative is reconstructed for SNMF again. These two steps are iterated until the stopping criterion/maximum number of iterations is achieved. We mathematically formulate S3NMF as a constrained optimization problem, and provide an alternative optimization algorithm to solve it with the theoretical convergence guaranteed. Extensive experimental results on 10 commonly used benchmark datasets demonstrate the significant advantage of our S3NMF over 14 state-of-the-art methods in terms of 5 quantitative metrics. The source code is publicly available at https://github.com/jyh-learning/SSSNMF.},
+ author = {Yuheng Jia and Hui Liu and Junhui Hou and Sam Kwong and Qingfu Zhang},
+ doi = {10.1109/TCSVT.2021.3129365},
+ issn = {1051-8215},
+ journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+ keywords = {Symmetric nonnegative matrix factorization, dimensionality reduction, clustering},
+ language = {English},
+ month = {July},
+ number = {7},
+ pages = {4526--4537},
+ publisher = {Institute of Electrical and Electronics Engineers, Inc.},
+ title = {Self-supervised Symmetric Nonnegative Matrix Factorization},
+ volume = {32},
+ year = {2022}
+}
